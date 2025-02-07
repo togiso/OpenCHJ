@@ -1,2 +1,2 @@
-# openCHJ
-Data for openCHJ
+# OpenCHJ
+Data for OpenCHJ
