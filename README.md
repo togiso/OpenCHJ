@@ -1,4 +1,4 @@
-# OpenCHJ: Open Corpus of Holistic Japanese
+# Data for OpenCHJ
 
 国立国語研究所の「中納言」で公開しているコーパス「オープンCHJ」のもととなっているデータで[@togiso](https://github.com/togiso)が関与したものをここで公開しています。
 
