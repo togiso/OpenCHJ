@@ -18,7 +18,7 @@
 | [OpenCHJ-Genji](https://github.com/togiso/OpenCHJ-Genji) | 源氏物語 全54帖 | 230ファイル／約54万語 | 形態論情報（TSV） | [中古和文UniDic](https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_wabun) | CC BY 4.0 | 2025/03 公開 |
 | [OpenCHJ-Aozora](https://github.com/togiso/OpenCHJ-Aozora) | 青空文庫所収の近現代小説・詩 19作品 | 約8万語 | 形態論情報（TSV）、OpenCHJ XML（XHTML） | [UniDic](https://clrd.ninjal.ac.jp/unidic/) | CC BY 4.0 | 2025/03 公開、2026/05 13作品追加 |
 | [OpenCHJ-Sokkikoudan](https://github.com/togiso/OpenCHJ-Sokkikoudan) | 『速記叢書講談演説集』 明治期の演説・講談 27編 | 約10万語 | 形態論情報（TSV） | [UniDic](https://clrd.ninjal.ac.jp/unidic/) | CC BY 4.0 | 2025/03 公開 |
-| [OpenCHJ-KokuteiRikaTextbooks](https://github.com/togiso/OpenCHJ-KokuteiRikaTextbooks) | 『尋常小学理科書』（1910年 第5学年、1918年 第5・6学年）3冊 | 3ファイル | OpenCHJ XML（TEI） | ― | CC BY 4.0（XMLデータ） | 2026/07 公開 |
+| [OpenCHJ-KokuteiRikaTextbooks](https://github.com/togiso/OpenCHJ-KokuteiRikaTextbooks) | 『尋常小学理科書』（1910年 第5学年、1918年 第5・6学年）3冊 | 3ファイル | OpenCHJ XML（TEI） | [旧仮名口語UniDic](https://clrd.ninjal.ac.jp/unidic/download_all.html) | CC BY 4.0（XMLデータ） | 2026/07 公開 |
 
 語数は形態論情報ファイルの行数にもとづく概数です。
 
