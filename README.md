@@ -14,7 +14,7 @@
 
 | リポジトリ | 内容 | 規模 | データ形式 | 解析辞書 | 形態論情報ライセンス | 公開・更新 |
 |---|---|---|---|---|---|---|
-| [OpenCHJ-JodaiKayo](https://github.com/togiso/OpenCHJ-JodaiKayo) | 上代歌謡 「仏足石歌」21首・「歌経標式」例歌40首 | 約1,100語 | 形態論情報（TSV）、OpenCHJ XML（OCX mini） | [上代語UniDic](https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_jodai) | CC BY 4.0 | 2026/07 公開 |
+| [OpenCHJ-JodaiKayo](https://github.com/togiso/OpenCHJ-JodaiKayo) | 上代歌謡 「仏足石歌」21首・「歌経標式」例歌40首 | 約1,100語 | 形態論情報（TSV）、OpenCHJ XML（OCX Standard） | [上代語UniDic](https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_jodai) | CC BY 4.0 | 2026/07 公開 |
 | [OpenCHJ-Genji](https://github.com/togiso/OpenCHJ-Genji) | 源氏物語 全54帖 | 230ファイル／約54万語 | 形態論情報（TSV） | [中古和文UniDic](https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_wabun) | CC BY 4.0 | 2025/03 公開 |
 | [OpenCHJ-Aozora](https://github.com/togiso/OpenCHJ-Aozora) | 青空文庫所収の近現代小説・詩 19作品 | 約8万語 | 形態論情報（TSV）、OpenCHJ XML（XHTML） | [UniDic](https://clrd.ninjal.ac.jp/unidic/) | CC BY 4.0 | 2025/03 公開、2026/05 13作品追加 |
 | [OpenCHJ-Sokkikoudan](https://github.com/togiso/OpenCHJ-Sokkikoudan) | 『速記叢書講談演説集』 明治期の演説・講談 27編 | 約10万語 | 形態論情報（TSV） | [UniDic](https://clrd.ninjal.ac.jp/unidic/) | CC BY 4.0 | 2025/03 公開 |
@@ -24,6 +24,7 @@
 
 ### 上代歌謡
 - 「仏足石歌」は[Wikipedia「仏足跡歌碑」](https://ja.wikipedia.org/wiki/%E4%BB%8F%E8%B6%B3%E8%B7%A1%E6%AD%8C%E7%A2%91)のテキスト、「歌経標式」例歌は[Oxford NINJAL Corpus of Old Japanese (ONCOJ)](https://oncoj.ninjal.ac.jp/)のローマ字テキストをひらがなに変換したものにもとづきます。
+- XMLは[OCX Standard](https://openchj.github.io/ocx-standard)形式です。`ocx:doc` をルートとし、歌の単位や句切れにはTEIの語彙（`tei:lg`、`tei:caesura` など）を使っています。
 - XMLでは、ひらがなの解析対象テキストを本文とし、万葉仮名の原文をルビ（`rt` 属性）として記録しています。
 - テキストのライセンスは原データに従ってください（仏足石歌：CC BY-SA 4.0、歌経標式：CC BY 4.0）。
 
