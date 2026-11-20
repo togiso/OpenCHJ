@@ -43,7 +43,7 @@
 - 原テキストは国語研究所言語処理データ集『[速記叢書講談演説集](https://mmsrv.ninjal.ac.jp/lanpro/spokenlanguage2/)』です。
 
 ### 国定理科教科書
-- [TEI](https://tei-c.org/)準拠のXMLに、OpenCHJ XMLに合わせた修正（ルビタグの変更、文境界 `ocx:eos` と文書ルート `ocx:doc` の付与など）を加えたものです。
+- [TEI](https://tei-c.org/)準拠のXMLに、OpenCHJ XMLに合わせた修正（ルビタグの変更、文境界 `ocx:eos` と、本文を囲む `ocx:doc` の付与など）を加えたものです。
 - `ocx:doc` の範囲だけがOpenCHJの本文として形態論情報を付与され、「中納言」で検索できるようになります。
 - 形態論情報のデータは、まだリポジトリにありません。
 - XMLデータのライセンスは[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)です。
